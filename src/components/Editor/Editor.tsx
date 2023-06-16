@@ -1,0 +1,11 @@
+import React from 'react'
+
+interface ButtonProps {
+    label: string;
+}
+
+export default function Editor(props: ButtonProps) {
+  return (
+    <button>{props.label}</button>
+  )
+}
